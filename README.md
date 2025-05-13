@@ -1,2 +1,2 @@
 # node-indonesia-subdivision-area
-Pustaka untuk list daerah-daerah administratif Indonesia
+Pustaka node.js untuk list daerah-daerah administratif Indonesia
