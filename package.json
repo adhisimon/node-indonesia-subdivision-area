@@ -1,0 +1,41 @@
+{
+  "name": "indonesia-subdivision-area",
+  "version": "0.0.1",
+  "description": "Pustaka node.js untuk list daerah-daerah administratif Indonesia",
+  "# type": "module",
+  "module": "./lib/index.mjs",
+  "scripts": {
+    "test": "mocha --bail --watch test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhisimon/node-indonesia-subdivision-area.git"
+  },
+  "keywords": [
+    "indonesia",
+    "province",
+    "city",
+    "district",
+    "subdistrict",
+    "geo",
+    "administrative",
+    "area"
+  ],
+  "author": "Adhidarma Hadiwinoto <me@adhisimon.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adhisimon/node-indonesia-subdivision-area/issues"
+  },
+  "homepage": "https://github.com/adhisimon/node-indonesia-subdivision-area#readme",
+  "devDependencies": {
+    "csv-parse": "^5.6.0",
+    "mocha": "^11.2.2",
+    "semistandard": "^17.0.0",
+    "should": "^13.2.3",
+    "winston": "^3.17.0"
+  },
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
