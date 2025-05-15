@@ -2,6 +2,19 @@
 
 **WORK IN PROGRESS**
 
+- [node-indonesia-subdivision-area](#node-indonesia-subdivision-area)
+  - [Cara Install](#cara-install)
+  - [Contoh Pemakaian](#contoh-pemakaian)
+  - [API](#api)
+    - [Tipe Data](#tipe-data)
+      - [Obyek GenericRow](#obyek-genericrow)
+    - [Methods](#methods)
+      - [Method getById(tableName, id)](#method-getbyidtablename-id)
+      - [Method getAll(tableName, parentId)](#method-getalltablename-parentid)
+      - [Method getByNamePattern(tableName, parentId)](#method-getbynamepatterntablename-parentid)
+  - [Histori Perubahan](#histori-perubahan)
+  - [Lisensi](#lisensi)
+
 Pustaka node.js untuk list daerah-daerah administratif Indonesia.
 
 Sumber data:
@@ -17,6 +30,8 @@ Data meliputi nama dan kode:
 ```
 npm i indonesia-subdivision-area
 ```
+
+## Contoh Pemakaian
 
 ## API
 
