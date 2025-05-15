@@ -13,7 +13,36 @@ Data meliputi nama dan kode:
 ## Cara Install
 ```
 npm i indonesia-subdivision-area
-``` 
+```
+
+## API
+
+### Tipe Data
+#### Obyek GenericRow
+Properti:
+* @property {string} id
+* @property {string?} parent_id (null untuk tabel "provinces")
+* @property {string} name
+
+### Methods
+
+#### Method getById(tableName, id)
+* tableName: string "provinces"|"cities"|"districts"|"subdistricts"
+* id: string
+
+Mengembalikan sebuah obyek GenericRow.
+
+#### Method getAll(tableName, parentId)
+* tableName: string "provinces"|"cities"|"districts"|"subdistricts"
+* parentId: string (opsional)
+
+Mengembalikan sebuah array dari obyek GenericRow.
+
+#### Method getByNamePattern(tableName, parentId)
+* tableName: string "provinces"|"cities"|"districts"|"subdistricts"
+* parentId: string (opsional)
+
+Mengembalikan sebuah array dari obyek GenericRow.
 
 ## Histori Perubahan
 Lihat file [CHANGELOG.md](CHANGELOG.md).
