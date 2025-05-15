@@ -4,6 +4,9 @@
 
 Pustaka node.js untuk list daerah-daerah administratif Indonesia.
 
+Sumber data:
+- [indonesia-38-provinsi](https://github.com/alifbint/indonesia-38-provinsi). Big thanks bro!!!
+
 Data meliputi nama dan kode:
 * provinsi
 * kabupaten/kota
