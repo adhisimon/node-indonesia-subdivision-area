@@ -1,6 +1,6 @@
 {
   "name": "indonesia-subdivision-area",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Pustaka node.js untuk list daerah-daerah administratif Indonesia",
   "module": "./lib/index.mjs",
   "exports": "./lib/index.mjs",
