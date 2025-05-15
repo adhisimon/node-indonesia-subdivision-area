@@ -12,6 +12,7 @@
       - [Method getById(tableName, id)](#method-getbyidtablename-id)
       - [Method getAll(tableName, parentId)](#method-getalltablename-parentid)
       - [Method getByNamePattern(tableName, parentId)](#method-getbynamepatterntablename-parentid)
+  - [TODO](#todo)
   - [Histori Perubahan](#histori-perubahan)
   - [Lisensi](#lisensi)
 
@@ -61,6 +62,9 @@ Mengembalikan sebuah array dari obyek GenericRow.
 * parentId: string (opsional)
 
 Mengembalikan sebuah array dari obyek GenericRow.
+
+## TODO
+* Hybrid ESM dan CJS module.
 
 ## Histori Perubahan
 Lihat file [CHANGELOG.md](CHANGELOG.md).
