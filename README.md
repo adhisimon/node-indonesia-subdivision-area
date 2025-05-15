@@ -10,8 +10,13 @@ Data meliputi nama dan kode:
 * kecamatan
 * kelurahan
 
-# Histori Perubahan
+## Cara Install
+```
+npm i indonesia-subdivision-area
+``` 
+
+## Histori Perubahan
 Lihat file [CHANGELOG.md](CHANGELOG.md).
 
-# Lisensi
+## Lisensi
 Pustaka ini dilisensikan dalam Lisensi MIT. Lihat file [LICENSE](LICENSE).
