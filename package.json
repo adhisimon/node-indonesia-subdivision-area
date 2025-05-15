@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "Pustaka node.js untuk list daerah-daerah administratif Indonesia",
   "module": "./lib/index.mjs",
+  "exports": "./lib/index.mjs",
   "scripts": {
     "test": "mocha --bail --watch test",
     "postversion": "git push && git push --tags",
