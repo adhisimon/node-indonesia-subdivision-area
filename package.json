@@ -2,10 +2,11 @@
   "name": "indonesia-subdivision-area",
   "version": "0.0.1",
   "description": "Pustaka node.js untuk list daerah-daerah administratif Indonesia",
-  "# type": "module",
   "module": "./lib/index.mjs",
   "scripts": {
-    "test": "mocha --bail --watch test"
+    "test": "mocha --bail --watch test",
+    "postversion": "git push && git push --tags",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
